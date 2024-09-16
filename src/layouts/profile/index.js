@@ -99,7 +99,7 @@ function Overview() {
           >
             <ProfileInfoCard
               title="profile information"
-              description="Hi, I’m Mark Johnson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+              description="Hi, I’m Mark, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
               info={{
                 fullName: "Mark Johnson",
                 mobile: "(44) 123 1234 123",
