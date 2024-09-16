@@ -25,7 +25,7 @@ function ReferralTracking() {
 					sx={{ width: '100%' }}
 					mb='40px'>
 					<VuiTypography variant='lg' color='white' mr='auto' fontWeight='bold'>
-						Outreach Impact
+						Leaderboard Status
 					</VuiTypography>
 					<VuiBox
 						display='flex'
@@ -83,10 +83,10 @@ function ReferralTracking() {
 								}
 							})}>
 							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
-								Workshops held
+								Your Rank
 							</VuiTypography>
 							<VuiTypography color='white' variant='lg' fontWeight='bold'>
-								145 people
+								14
 							</VuiTypography>
 						</VuiBox>
 						<VuiBox
@@ -106,10 +106,10 @@ function ReferralTracking() {
 								}
 							})}>
 							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
-								Participants
+								Top Players
 							</VuiTypography>
 							<VuiTypography color='white' variant='lg' fontWeight='bold'>
-								1,465
+								50
 							</VuiTypography>
 						</VuiBox>
 					</Stack>
@@ -133,7 +133,7 @@ function ReferralTracking() {
 							}}>
 							<VuiBox display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
 								<VuiTypography color='text' variant='button' mb='4px'>
-									Safety
+									Ocean Literacy Level
 								</VuiTypography>
 								<VuiTypography
 									color='white'

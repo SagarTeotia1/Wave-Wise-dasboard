@@ -16,7 +16,7 @@ const SatisfactionRate = () => {
 		<Card sx={{ height: '340px' }}>
 			<VuiBox display='flex' flexDirection='column'>
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='4px'>
-					Ocean Knowledge Mastery Rate
+					Decision Accuracy
 				</VuiTypography>
 				<VuiTypography variant='button' color='text' fontWeight='regular' mb='20px'>
 					
