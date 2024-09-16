@@ -72,32 +72,32 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "Funding Secured", fontWeight: "regular" }}
-                count="$53,000"
+                title={{ text: "Total score", fontWeight: "regular" }}
+                count="53,000"
                 percentage={{ color: "success", text: "+55%" }}
                 icon={{ color: "info", component: <IoWallet size="22px" color="white" /> }}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "People Educated" }}
-                count="2,300"
+                title={{ text: "Levels Completed" }}
+                count="42"
                 percentage={{ color: "success", text: "+3%" }}
                 icon={{ color: "info", component: <IoGlobe size="22px" color="white" /> }}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "Marine species covered" }}
-                count="+3,462"
+                title={{ text: "Correct Decisions" }}
+                count="+1286"
                 percentage={{ color: "error", text: "-2%" }}
                 icon={{ color: "info", component: <IoDocumentText size="22px" color="white" /> }}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "Ocean area studied" }}
-                count="$103,430"
+                title={{ text: "Time Played" }}
+                count="215 hrs"
                 percentage={{ color: "success", text: "+5%" }}
                 icon={{ color: "info", component: <FaShoppingCart size="20px" color="white" /> }}
               />
