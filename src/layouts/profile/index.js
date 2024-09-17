@@ -30,7 +30,7 @@ import team4 from "assets/images/avatar4.png";
 // Images
 import profile1 from "assets/images/profile-1.png";
 import profile2 from "assets/images/profile-2.png";
-import profile3 from "assets/images/profile-3.png";
+import profile3 from "assets/images/scuba.jpg";
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
