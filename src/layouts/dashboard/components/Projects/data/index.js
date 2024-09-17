@@ -48,14 +48,14 @@ export default function data() {
   return {
     columns: [
       { name: "role", align: "left" },
-      { name: "Skills learned", align: "left" },
-      { name: "budget", align: "center" },
+      { name: "skills learned", align: "left" },
+      { name: "points earned", align: "center" },
       { name: "completion", align: "center" },
     ],
 
     rows: [
       {
-        companies: (
+        role: (
           <VuiBox display="flex" alignItems="center">
             <AdobeXD size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
@@ -63,7 +63,7 @@ export default function data() {
             </VuiTypography>
           </VuiBox>
         ),
-        members: (
+        skills_learned: (
           <VuiBox display="flex" py={1}>
             {avatars([
               [avatar1, "Ryan Tompson"],
@@ -73,7 +73,7 @@ export default function data() {
             ])}
           </VuiBox>
         ),
-        budget: (
+        points_earned: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
             $14,000
           </VuiTypography>
