@@ -64,6 +64,7 @@ const routes = [
     component: Tables,
     noCollapse: true,
   },
+  
   {
     type: "collapse",
     name: "Billing",
