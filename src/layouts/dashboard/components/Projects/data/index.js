@@ -47,8 +47,8 @@ export default function data() {
 
   return {
     columns: [
-      { name: "companies", align: "left" },
-      { name: "members", align: "left" },
+      { name: "role", align: "left" },
+      { name: "Skills learned", align: "left" },
       { name: "budget", align: "center" },
       { name: "completion", align: "center" },
     ],
@@ -59,7 +59,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <AdobeXD size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Chakra Vision UI Version
+              Fishermen
             </VuiTypography>
           </VuiBox>
         ),
@@ -92,7 +92,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <Atlassian size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Add Progress Track
+              Caption of a ship 
             </VuiTypography>
           </VuiBox>
         ),
@@ -123,7 +123,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-              Fix Platform Errors
+              Tourism Operator
             </VuiTypography>
           </VuiBox>
         ),
