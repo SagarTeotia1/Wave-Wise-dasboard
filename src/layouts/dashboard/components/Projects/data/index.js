@@ -48,7 +48,7 @@ export default function data() {
   return {
     columns: [
       { name: "role", align: "left" },
-      { name: "skills learned", align: "left" },
+     // { name: "skills learned", align: "left" },
       { name: "points_earned", align: "center" },
       { name: "completion", align: "center" },
     ],
