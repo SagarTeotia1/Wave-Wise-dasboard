@@ -146,9 +146,9 @@ function Overview() {
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile1}
-                    label="project #2"
-                    title="modern"
-                    description="As Uber works through a huge amount of internal management turmoil."
+                    label="Mission #1"
+                    title="Deepsea challenger expedition"
+                    description="Cameron made a solo dive to the Mariana Trench, the deepest part of the world's oceans, using the Deepsea Challenger submersible."
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -166,9 +166,9 @@ function Overview() {
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile2}
-                    label="project #1"
-                    title="scandinavian"
-                    description="Music is something that every person has his or her own specific opinion about."
+                    label="Mission #2"
+                    title="Calypso expeditions"
+                    description="Cousteau’s expeditions aboard the Calypso were instrumental in underwater exploration, marine biology, and oceanography."
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -186,9 +186,9 @@ function Overview() {
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile3}
-                    label="project #3"
-                    title="minimalist"
-                    description="Different people have different taste, and various types of music."
+                    label="Mission #3"
+                    title="Mission blue"
+                    description="An initiative by Sylvia Earle focused on ocean conservation, mapping and protecting marine protected areas, and raising awareness about the need for ocean preservation."
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
