@@ -84,7 +84,7 @@ function OrdersOverview() {
           title="Completed Tsunami Safety Course"
           dateTime="18 DEC 4:54 AM"
         />
-        <TimelineItem icon={<AdobeXD size="20px" />} title="New order #9583120" dateTime="17 DEC" />
+        <TimelineItem icon={<AdobeXD size="20px" />} title="Mastered Ocean Acidification Monitoring Techniques." dateTime="17 DEC" />
       </VuiBox>
     </Card>
   );
