@@ -99,12 +99,12 @@ function Overview() {
           >
             <ProfileInfoCard
               title="profile information"
-              description="Hi, I’m Mark, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+              description="Hi, I’m Abhinav, Navigating through the depths of the ocean is just like navigating through life—filled with challenges, beauty, and discoveries"
               info={{
-                fullName: "Mark Johnson",
+                fullName: "Abhinav Mishra",
                 mobile: "(44) 123 1234 123",
-                email: "mark@simmmple.com",
-                location: "United States",
+                email: "itsabhinav2005@gmail.com",
+                location: "India",
               }}
               social={[
                 {

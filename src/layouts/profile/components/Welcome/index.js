@@ -41,7 +41,7 @@ const Welcome = () => {
             Welcome back!
           </VuiTypography>
           <VuiTypography color="white" variant="button" fontWeight="regular">
-            Nice to see you, Mark Johnson!
+            Nice to see you, Abhinav Mishra!
           </VuiTypography>
         </VuiBox>
         <VuiBox justifySelf="flex-end">

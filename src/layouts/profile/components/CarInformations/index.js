@@ -41,10 +41,10 @@ const CarInformations = () => {
 			})}>
 			<VuiBox display='flex' flexDirection='column'>
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='6px'>
-					Car Informations
+					Player Information
 				</VuiTypography>
 				<VuiTypography variant='button' color='text' fontWeight='regular' mb='30px'>
-					Hello, Mark Johnson! Your Car is ready.
+					Hello, Abhinav! Welcome to Ocean Explorer!.
 				</VuiTypography>
 				<Stack
 					spacing='24px'
@@ -78,7 +78,7 @@ const CarInformations = () => {
 									68%
 								</VuiTypography>
 								<VuiTypography color='text' variant='caption'>
-									Current Load
+									Ocean Mastery
 								</VuiTypography>
 							</VuiBox>
 						</VuiBox>
@@ -91,7 +91,7 @@ const CarInformations = () => {
 								0h 58 min
 							</VuiTypography>
 							<VuiTypography color='text' variant='button' fontWeight='regular'>
-								Time to full charge
+								Time to next level
 							</VuiTypography>
 						</VuiBox>
 					</VuiBox>
@@ -124,7 +124,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Battery Health
+										Ocean knowledge Level
 									</VuiTypography>
 									<VuiTypography
 										color='white'
@@ -163,7 +163,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Efficiency
+										Conservation impact
 									</VuiTypography>
 									<VuiTypography
 										color='white'
@@ -197,7 +197,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Consumption
+										Decision accuracy
 									</VuiTypography>
 									<VuiTypography
 										color='white'
@@ -236,7 +236,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										This Week
+										Recent Expedition
 									</VuiTypography>
 									<VuiTypography
 										color='white'
