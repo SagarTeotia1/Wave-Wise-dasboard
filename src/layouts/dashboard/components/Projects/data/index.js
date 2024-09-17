@@ -49,7 +49,7 @@ export default function data() {
     columns: [
       { name: "role", align: "left" },
       { name: "skills learned", align: "left" },
-      { name: "points earned", align: "center" },
+      { name: "points_earned", align: "center" },
       { name: "completion", align: "center" },
     ],
 
@@ -75,7 +75,7 @@ export default function data() {
         ),
         points_earned: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $14,000
+            50
           </VuiTypography>
         ),
         completion: (
@@ -106,7 +106,7 @@ export default function data() {
         ),
         points_earned: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $3,000
+            150
           </VuiTypography>
         ),
         completion: (
@@ -137,7 +137,7 @@ export default function data() {
         ),
         points_earned: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            Not set
+            100
           </VuiTypography>
         ),
         completion: (
@@ -170,7 +170,7 @@ export default function data() {
         ),
         points_earned: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $20,500
+            500
           </VuiTypography>
         ),
         completion: (
@@ -198,7 +198,7 @@ export default function data() {
         ),
         points_earned: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $500
+            58
           </VuiTypography>
         ),
         completion: (
@@ -229,7 +229,7 @@ export default function data() {
         ),
         points_earned: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            $2,000
+            78
           </VuiTypography>
         ),
         completion: (

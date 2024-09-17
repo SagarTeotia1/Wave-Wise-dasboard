@@ -216,7 +216,7 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar6} name="Mark Wilson" email="mark@simmmple.com" />,
+      author: <Author image={avatar6} name="Abhinav Mishra" email="itsabhinav2005@gmail.com" />,
       function: <Function job="Programtor" org="Developer" />,
       status: (
         <VuiBadge

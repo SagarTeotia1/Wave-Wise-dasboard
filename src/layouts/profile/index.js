@@ -99,12 +99,12 @@ function Overview() {
           >
             <ProfileInfoCard
               title="profile information"
-              description="Hi, I’m Mark, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+              description="Hi, I’m Abhinav, Navigating through the depths of the ocean is just like navigating through life—filled with challenges, beauty, and discoveries"
               info={{
-                fullName: "Mark Johnson",
+                fullName: "Abhinav Mishra",
                 mobile: "(44) 123 1234 123",
-                email: "mark@simmmple.com",
-                location: "United States",
+                email: "itsabhinav2005@gmail.com",
+                location: "India",
               }}
               social={[
                 {
@@ -136,19 +136,19 @@ function Overview() {
             <VuiBox display="flex" flexDirection="column" height="100%">
               <VuiBox display="flex" flexDirection="column" mb="24px">
                 <VuiTypography color="white" variant="lg" fontWeight="bold" mb="6px">
-                  Projects
+                  Ocean Missions
                 </VuiTypography>
                 <VuiTypography color="text" variant="button" fontWeight="regular">
-                  Architects design houses
+                Ocean Explorers map marine ecosystems
                 </VuiTypography>
               </VuiBox>
               <Grid container spacing={3}>
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile1}
-                    label="project #2"
-                    title="modern"
-                    description="As Uber works through a huge amount of internal management turmoil."
+                    label="Mission #1"
+                    title="Deepsea challenger expedition"
+                    description="Cameron made a solo dive to the Mariana Trench, the deepest part of the world's oceans, using the Deepsea Challenger submersible."
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -166,9 +166,9 @@ function Overview() {
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile2}
-                    label="project #1"
-                    title="scandinavian"
-                    description="Music is something that every person has his or her own specific opinion about."
+                    label="Mission #2"
+                    title="Calypso expeditions"
+                    description="Cousteau’s expeditions aboard the Calypso were instrumental in underwater exploration, marine biology, and oceanography."
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -186,9 +186,9 @@ function Overview() {
                 <Grid item xs={12} md={6} xl={4}>
                   <DefaultProjectCard
                     image={profile3}
-                    label="project #3"
-                    title="minimalist"
-                    description="Different people have different taste, and various types of music."
+                    label="Mission #3"
+                    title="Mission blue"
+                    description="An initiative by Sylvia Earle focused on ocean conservation, mapping and protecting marine protected areas, and raising awareness about the need for ocean preservation."
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
