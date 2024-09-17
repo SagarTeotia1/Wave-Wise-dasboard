@@ -55,7 +55,7 @@ function SidenavCard({ color, ...rest }) {
         </VuiBox>
         <VuiBox lineHeight={1}>
           <VuiTypography variant="h6" color="white">
-            Download Certifiacte
+            Download Certificate
           </VuiTypography>
           <VuiBox mb={1.825} mt={-1}>
             <VuiTypography variant="caption" color="white" fontWeight="regular">
