@@ -64,7 +64,7 @@ function SidenavCard({ color, ...rest }) {
           </VuiBox>
           <VuiButton
             component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/vision-ui-dashboard/"
+            href="https://drive.google.com/file/d/1QT90ICL7kzrX4JtLjxncgMyd9c4HxDli/view?usp=drivesdk"
             target="_blank"
             rel="noreferrer"
             size="small"
