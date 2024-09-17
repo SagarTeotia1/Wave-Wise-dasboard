@@ -136,10 +136,10 @@ function Overview() {
             <VuiBox display="flex" flexDirection="column" height="100%">
               <VuiBox display="flex" flexDirection="column" mb="24px">
                 <VuiTypography color="white" variant="lg" fontWeight="bold" mb="6px">
-                  Projects
+                  Ocean Missions
                 </VuiTypography>
                 <VuiTypography color="text" variant="button" fontWeight="regular">
-                  Architects design houses
+                Ocean Explorers map marine ecosystems
                 </VuiTypography>
               </VuiBox>
               <Grid container spacing={3}>
