@@ -44,15 +44,7 @@ const routes = [
     component: Games,
     noCollapse: true,
   },
-  {
-    type: "collapse",
-    name: "Webinars",
-    key: "webinars",
-    route: "/webinars",
-    icon: <IoStatsChart size="15px" color="inherit" />,
-    component: Webinars,
-    noCollapse: true,
-  },
+ 
   {
     type: "collapse",
     name: "Vlog",
