@@ -7,17 +7,23 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 
 // Importing local videos
-import video1 from "assets/videos/video1.webm";
-import video2 from "assets/videos/video1.webm";
-import video3 from "assets/videos/video1.webm";
-import video4 from "assets/videos/video1.webm";
+
+
+import video2 from "assets/videos/video1.mp4";
+import video3 from "assets/videos/video2.mp4";
+import video4 from "assets/videos/video3.mp4";
+import video5 from "assets/videos/video4.mp4";
+import video6 from "assets/videos/video5.mp4";
 
 function Games() {
   const videos = [
-    { title: "Game 1", src: video1 },
-    { title: "Game 2", src: video2 },
-    { title: "Game 3", src: video3 },
-    { title: "Game 4", src: video4 },
+    
+    { title: "Game 1", src: video2 },
+    { title: "Game 2", src: video3 },
+    { title: "Game 3", src: video4 },
+    { title: "Game 4", src: video5 },
+    { title: "Game 5", src: video6 },
+   
   ];
 
   // State to manage the active sliding video index
@@ -253,3 +259,7 @@ function Games() {
 }
 
 export default Games;
+
+
+
+
