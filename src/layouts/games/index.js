@@ -7,8 +7,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 
 // Importing local videos
-
-
 import video2 from "assets/videos/video1.mp4";
 import video3 from "assets/videos/video2.mp4";
 import video4 from "assets/videos/video3.mp4";
@@ -17,30 +15,25 @@ import video6 from "assets/videos/video5.mp4";
 
 function Games() {
   const videos = [
-    
-    { title: "Game 1", src: video2 },
-    { title: "Game 2", src: video3 },
-    { title: "Game 3", src: video4 },
-    { title: "Game 4", src: video5 },
-    { title: "Game 5", src: video6 },
-   
+    { title: "Game 1", src: video2, link: "https://www.spatial.io/s/Players-Home-6619708170f7d10e5463d1da" },
+    { title: "Game 2", src: video3, link: "https://www.spatial.io/s/Candy-Ocean-Island-66ad986db897b3c7ab62d2a4?share=6104731384507341487" },
+    { title: "Game 3", src: video4, link: "https://www.spatial.io/s/Speed-Boat-63f92f5a8170f13702bcf39f?share=8559979261193162016" },
+    { title: "Game 4", src: video5, link: "https://external-link-to-game-4.com" },
+    { title: "Game 5", src: video6, link: "https://external-link-to-game-5.com" },
   ];
 
-  // State to manage the active sliding video index
   const [activeVideoIndex, setActiveVideoIndex] = useState(0);
 
-  // Slider functionality to change videos every 10 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveVideoIndex((prevIndex) =>
         prevIndex === videos.length - 1 ? 0 : prevIndex + 1
       );
-    }, 10000); // Change video every 10 seconds
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [videos.length]);
 
-  // Function to handle manual navigation
   const handleNextVideo = () => {
     setActiveVideoIndex((prevIndex) =>
       prevIndex === videos.length - 1 ? 0 : prevIndex + 1
@@ -53,16 +46,15 @@ function Games() {
     );
   };
 
-  // Sample game cards data
   const games = [
-    { title: "Game A", description: "A thrilling action game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
-    { title: "Game B", description: "An exciting adventure game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
-    { title: "Game C", description: "A captivating puzzle game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
-    { title: "Game D", description: "A fast-paced racing game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
-    { title: "Game E", description: "An immersive RPG game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
-    { title: "Game F", description: "A strategic board game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
-    { title: "Game G", description: "A fun educational game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
-    { title: "Game H", description: "A sports simulation game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996" },
+    { title: "Game A", description: "A thrilling action game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-a.com" },
+    { title: "Game B", description: "An exciting adventure game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-b.com" },
+    { title: "Game C", description: "A captivating puzzle game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-c.com" },
+    { title: "Game D", description: "A fast-paced racing game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-d.com" },
+    { title: "Game E", description: "An immersive RPG game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-e.com" },
+    { title: "Game F", description: "A strategic board game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-f.com" },
+    { title: "Game G", description: "A fun educational game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-g.com" },
+    { title: "Game H", description: "A sports simulation game.", image: "https://img.freepik.com/premium-photo/underwater-seafloor-scene-with-treasure-chest-cartoon-game-background-ocean-underwater-world-with-fish-algae-coral-weed-oceanic-wildlife-painting_76964-404517.jpg?w=996", link: "https://external-link-to-game-h.com" },
   ];
 
   return (
@@ -114,7 +106,7 @@ function Games() {
                   borderRadius: "5px",
                   cursor: "pointer",
                 }}
-                onClick={() => alert(`${video.title} is starting now!`)}
+                onClick={() => window.open(video.link, "_blank")}
               >
                 Play Now
               </Button>
@@ -177,27 +169,18 @@ function Games() {
             <CardContent>
               <VuiTypography
                 variant="h5"
-                style={{ fontWeight: "bold", textAlign: "center", color: "blue" }}
+                style={{ fontWeight: "bold", textAlign: "center" }}
               >
                 {game.title}
               </VuiTypography>
-              <VuiTypography
-                variant="body2"
-                color="textSecondary"
-                style={{ textAlign: "center", color: "white" }}
-              >
+              <VuiTypography variant="body2" color="textSecondary">
                 {game.description}
               </VuiTypography>
               <Button
-                style={{
-                  marginTop: "10px",
-                  backgroundColor: "#4CAF50",
-                  color: "white",
-                  display: "block",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                }}
-                onClick={() => alert(`Playing ${game.title}`)}
+                variant="contained"
+                color="primary"
+                style={{ marginTop: "10px", width: "100%" }}
+                onClick={() => window.open(game.link, "_blank")}
               >
                 Play Now
               </Button>
@@ -206,7 +189,7 @@ function Games() {
         ))}
       </VuiBox>
 
-      {/* Another set of Game Cards Section with 4 cards */}
+      {/* Game Cards Section with remaining cards */}
       <VuiBox display="flex" justifyContent="space-between" flexWrap="wrap">
         {games.slice(4).map((game, index) => (
           <Card
@@ -226,27 +209,18 @@ function Games() {
             <CardContent>
               <VuiTypography
                 variant="h5"
-                style={{ fontWeight: "bold", textAlign: "center", color: "blue" }}
+                style={{ fontWeight: "bold", textAlign: "center" }}
               >
                 {game.title}
               </VuiTypography>
-              <VuiTypography
-                variant="body2"
-                color="textSecondary"
-                style={{ textAlign: "center", color: "white" }}
-              >
+              <VuiTypography variant="body2" color="textSecondary">
                 {game.description}
               </VuiTypography>
               <Button
-                style={{
-                  marginTop: "10px",
-                  backgroundColor: "#4CAF50",
-                  color: "white",
-                  display: "block",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                }}
-                onClick={() => alert(`Playing ${game.title}`)}
+                variant="contained"
+                color="primary"
+                style={{ marginTop: "10px", width: "100%" }}
+                onClick={() => window.open(game.link, "_blank")}
               >
                 Play Now
               </Button>
@@ -259,7 +233,3 @@ function Games() {
 }
 
 export default Games;
-
-
-
-
