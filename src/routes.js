@@ -47,9 +47,9 @@ const routes = [
  
   {
     type: "collapse",
-    name: "Vlog",
+    name: "Blog",
     key: "vlog",
-    route: "/vlog",
+    route: "/blog",
     icon: <IoStatsChart size="15px" color="inherit" />,
     component: Vlog,
     noCollapse: true,
